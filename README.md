@@ -5,5 +5,5 @@ just place it in the file that contains the jsons you want to import and run thi
 ```
 mongoImporter [Data Base Name*]
 ```
-**Note:**  make sure the mongo bin exits in your system path variable
+**Note:**  make sure the mongo bin exists in your system path variable
 
