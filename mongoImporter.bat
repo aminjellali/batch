@@ -15,7 +15,7 @@ goto :eof
 
 :main
 	IF [%1]==[] (
-	ECHO FATLA ERROR: Please specify a data base name
+	ECHO FATAL ERROR: Please specify a data base name
 	goto :eof
 	) ELSE (
 	echo starting import...
