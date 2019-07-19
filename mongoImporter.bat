@@ -18,10 +18,11 @@ goto :eof
 	ECHO FATAL ERROR: Please specify a data base name
 	goto :eof
 	) ELSE (
+	ECHO @author amin.jellali
+	ECHO @email a.j.amin.jellali@gmail.com
 	echo starting import...
 	call :loop_over_files_in_current_dir %~1
 	echo import done...
 	echo hope you enjoyed me
 	)
 goto :eof
-       
